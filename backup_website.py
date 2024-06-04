@@ -1,6 +1,7 @@
 import os
 import requests
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 from datetime import datetime
 
 def backup_website(url, backup_dir):
@@ -20,6 +21,9 @@ def backup_website(url, backup_dir):
         # 下载并替换图片链接
         for img_tag in soup.find_all('img'):
             img_url = img_tag['src']
+            # 如果是相对 URL，转换为绝对 URL
+            if not img_url.startswith(('http:', 'https:')):
+                img_url = urljoin(url, img_url)
             img_data = requests.get(img_url).content
             img_name = os.path.basename(img_url)
             img_path = os.path.join(backup_dir, img_name)
@@ -30,6 +34,9 @@ def backup_website(url, backup_dir):
         # 下载并替换 CSS 文件链接
         for link_tag in soup.find_all('link', rel='stylesheet'):
             css_url = link_tag['href']
+            # 如果是相对 URL，转换为绝对 URL
+            if not css_url.startswith(('http:', 'https:')):
+                css_url = urljoin(url, css_url)
             css_data = requests.get(css_url).content
             css_name = os.path.basename(css_url)
             css_path = os.path.join(backup_dir, css_name)
