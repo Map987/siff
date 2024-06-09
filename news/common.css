@@ -309,7 +309,7 @@ ul.txList li:hover .detail-pop{ display: block; }
 .movieBox span.arrow{ position: absolute; left: 50%; top: 0; margin-top: 50px; margin-left: -13px; width: 27px; height: 16px; background: url(../images/icon_arrow2.png) no-repeat;}
 .movieInfo{ position: relative; width: 1000px; margin: 0 auto; z-index: 10; top: -50px;}
 .movieInfo .poster{ width: 300px; height: 450px; overflow: hidden;}
-.movieInfo .poster img{ width: 100%; display: block;}
+.movieInfo .poster img{ width: 100%; display: block; max-height:100%}
 .movieInfo .moverActor{ padding-left: 27px; padding-top: 80px; width: 700px;}
 .movieInfo .moverActor span{ display: inline-block; margin-right: 8px; font-size: 16px; color: #c1a075; line-height: 44px;}
 .movieInfo .moverActor .txList{ width: 615px; }
