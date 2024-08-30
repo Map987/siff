@@ -228,7 +228,7 @@
 .fl,.fr{ display: inline;}
 
 /*--侧滑导航栏--*/
-.sideBar{width: 230px;height: 420px;position: fixed; left: 0; bottom:8vh; z-index: 200;}
+.sideBar{width: 230px;height: 420px;position: fixed; left: 0; top:40%; z-index: 200;}
 .sideBar .fl{height: 420px;width: 180px;background-color: #4e4a4a}
 .sideBar .fr{height: 420px;width: 50px;background-color: #e60012}
 .sideBar ul{margin: 50px 10px;}
