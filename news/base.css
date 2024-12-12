@@ -9,7 +9,7 @@ ol,ul {list-style:none;}
 li{list-style-type:none;}
 img{vertical-align:top;border:0;}
 h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;}
-address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
+address,cite,code,em,th,i{font-weight:normal;}
 .fB{font-weight:bold;}
 .clearfix{*zoom:1;}
 .clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
