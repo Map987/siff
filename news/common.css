@@ -487,6 +487,7 @@
   padding-right: 20px;
   font-weight: lighter;
   margin-top: 8px;
+  min-width: 146px;
 }
 .news .news-guide .news-guide-go .more>a{
   color: #ffffff;
