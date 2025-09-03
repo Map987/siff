@@ -1297,6 +1297,11 @@ ul.txList li:hover .detail-pop{ display: block; }
 .subnav li{ width: 10%; text-align: center; }
 .subnav li.cur{ background: #ff0000; }
 
+.subnav .separator {
+    margin: 0 2px;
+    color: #95a5a6;
+}
+
 
 /*内容*/
 .article{ /*background: #fff;*/ color: #333; font-size: 15px; min-height: 500px;margin: 0;width: 100%;}
