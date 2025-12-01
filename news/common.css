@@ -1322,7 +1322,7 @@ ul.txList li:hover .detail-pop{ display: block; }
   position: absolute;
   bottom: 0px;
   left: 0;
-  width: 800px;
+  width: 100%;
   height: 300px;
   /*以下配合鼠标放上去显示使用*/
   /*opacity: 0;*/
