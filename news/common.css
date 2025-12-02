@@ -721,7 +721,7 @@ ul.txList li:hover .detail-pop{ display: block; }
   position: relative;
   display: inline-block;
   cursor: pointer;
-  background-color: #ba2920;
+  background-color: rgb(217, 95, 52);
   color: white;
   padding: 12px 30px;
   border-radius: 30px;
