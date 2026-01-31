@@ -54,7 +54,7 @@
   height: 542px;
 } */
 .main-header:has(.header-title-item:not(.header-search):hover) {
-  height: 542px;
+  height: 562px;
 }
 
 
@@ -135,7 +135,7 @@
 }
 
 .header-sub{
-  height: 462px;
+  height: 482px;
   padding-top: 20px;
   display: none;
   visibility: hidden;
