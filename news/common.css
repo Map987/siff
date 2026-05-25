@@ -1196,10 +1196,26 @@ ul.txList li:hover .detail-pop{ display: block; }
 .qimo8 .wrapper ul{ float: left; height: 68px;}
 .otherLogo .qimo8 li{
   float: left;
-  margin: 15px 40px;
+  margin: 15px 32px;
   height: 45px;
   text-align: center;
   display: inline-block;}
+.otherLogo .qimo8 li:nth-child(2) {
+  margin: 10px 32px;
+  height: 52px;
+}
+.otherLogo .qimo8 li:nth-child(3) {
+  margin: 10px 32px;
+  height: 52px;
+}
+.otherLogo .qimo8 li:nth-child(6) {
+  margin: 8px 32px;
+  height: 54px;
+}
+.otherLogo .qimo8 li:last-child {
+  margin: 0px 32px;
+  height: 100%;
+}
 .otherLogo .qimo8 li img{  height: 100%;vertical-align: middle; }
 .logocenter .wrapper { height: 68px; text-align: center; }
 .logocenter .wrapper li{ margin: 0 15px; display: inline-block; height: 52px; }
