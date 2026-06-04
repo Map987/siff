@@ -1212,6 +1212,14 @@ ul.txList li:hover .detail-pop{ display: block; }
   margin: 8px 32px;
   height: 54px;
 }
+.otherLogo .qimo8 li:nth-child(8) {
+  margin: 10px 32px;
+  height: 52px;
+}
+.otherLogo .qimo8 li:nth-child(16) {
+  margin: 0px 32px;
+  height: 54px;
+}
 .otherLogo .qimo8 li:last-child {
   margin: 0px 32px;
   height: 100%;
