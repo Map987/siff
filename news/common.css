@@ -721,7 +721,7 @@ ul.txList li:hover .detail-pop{ display: block; }
   position: relative;
   display: inline-block;
   cursor: pointer;
-  background-color: rgb(217, 95, 52);
+  background-color: #d4ac2e;
   color: white;
   padding: 12px 30px;
   border-radius: 30px;
@@ -755,7 +755,7 @@ ul.txList li:hover .detail-pop{ display: block; }
 .pull-button-arrow {
   width: 10px;
   height: 2px;
-  background-color: #ba2920;
+  background-color: #d4ac2e;
   position: relative;
   transition: transform 0.3s ease;
 }
@@ -766,7 +766,7 @@ ul.txList li:hover .detail-pop{ display: block; }
   position: absolute;
   width: 5px;
   height: 2px;
-  background-color: #ba2920;
+  background-color: #d4ac2e;
   top: 0px;
   right: 0px;
   transform-origin: right center;
